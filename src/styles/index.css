@@ -1,3 +1,55 @@
+.containerSem{
+    width: 100%;
+}
+.semaforo{ 
+    background-color: black;
+    height: 400px;
+    width: 150px;
+    padding: 20px;
+    position: relative;
+    margin: auto;
+}
+.estado{
+    color: white;
+}
+
+.brillante{
+    box-shadow: rgb(224, 224, 224) 0px 0px 76px 30px;
+}
+.luz{
+    border-radius: 100px;
+    width: 100px;
+    height: 100px;
+}
+
+.red{
+    background-color: red;
+}
+.yellow{
+    background-color: yellow;
+}
+.green{
+    background-color: green;
+}
+
+.aviso {
+    padding-left: 170px;
+    display: hidden;
+}
+.mostrar {
+    display: block;
+}
+
+/* .redOn{
+    background-color: purple;
+}
+.yellowOn{
+    background-color: yellowgreen;
+}
+.greenOn{
+    background-color: greenyellow;
+} */
+
 
 /* 
 
